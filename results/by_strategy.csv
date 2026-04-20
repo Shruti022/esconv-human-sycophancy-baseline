@@ -1,0 +1,9 @@
+strategy,syc_mean,syc_std,count,therapeutic,empathy
+Affirmation and Reassurance,0.24,0.202,1657,0.284,0.628
+Self-disclosure,0.21,0.157,964,0.312,0.651
+Reflection of feelings,0.204,0.177,854,0.319,0.683
+Providing Suggestions,0.151,0.145,1571,0.401,0.582
+Restatement or Paraphrasing,0.148,0.145,707,0.364,0.676
+Information,0.146,0.155,674,0.319,0.526
+Others,0.13,0.177,1811,0.166,0.51
+Question,0.08,0.076,1767,0.375,0.625

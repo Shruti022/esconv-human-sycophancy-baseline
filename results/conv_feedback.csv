@@ -1,0 +1,911 @@
+conv_id,emotion_type,problem_type,conv_length,feedback_empathy,feedback_relevance,feedback_initial_emotion,feedback_final_emotion,feedback_emotion_delta,feedback_overall
+0,anxiety,job crisis,11,5.0,5.0,3.0,2.0,1.0,5.0
+1,depression,ongoing depression,16,4.0,5.0,4.0,3.0,1.0,4.5
+2,anxiety,job crisis,28,5.0,4.0,5.0,3.0,2.0,4.5
+3,depression,breakup with partner,10,3.0,2.0,5.0,4.0,1.0,2.5
+4,disgust,problems with friends,15,5.0,5.0,5.0,2.0,3.0,5.0
+5,fear,ongoing depression,13,,,4.0,,,
+6,anxiety,academic pressure,10,5.0,5.0,5.0,1.0,4.0,5.0
+7,anxiety,academic pressure,10,5.0,5.0,5.0,4.0,1.0,5.0
+8,anxiety,job crisis,13,4.0,4.0,4.0,2.0,2.0,4.0
+9,anxiety,ongoing depression,13,4.0,3.0,4.0,3.0,1.0,3.5
+10,anxiety,job crisis,16,3.0,5.0,4.0,3.0,1.0,4.0
+11,fear,problems with friends,14,3.0,4.0,4.0,3.0,1.0,3.5
+12,depression,job crisis,16,5.0,5.0,4.0,3.0,1.0,5.0
+13,anxiety,conflict with parents,11,5.0,5.0,5.0,1.0,4.0,5.0
+14,sadness,ongoing depression,21,,,3.0,,,
+15,depression,ongoing depression,10,5.0,5.0,5.0,1.0,4.0,5.0
+16,fear,job crisis,11,4.0,5.0,5.0,3.0,2.0,4.5
+17,sadness,ongoing depression,19,5.0,5.0,3.0,1.0,2.0,5.0
+18,fear,job crisis,12,4.0,4.0,4.0,3.0,1.0,4.0
+19,shame,job crisis,18,5.0,5.0,2.0,1.0,1.0,5.0
+20,anxiety,job crisis,15,3.0,4.0,4.0,3.0,1.0,3.5
+21,depression,ongoing depression,12,5.0,5.0,5.0,3.0,2.0,5.0
+22,anxiety,academic pressure,15,5.0,5.0,5.0,1.0,4.0,5.0
+23,sadness,problems with friends,13,5.0,4.0,5.0,2.0,3.0,4.5
+24,sadness,problems with friends,9,,,4.0,,,
+25,disgust,problems with friends,11,4.0,4.0,4.0,3.0,1.0,4.0
+26,depression,ongoing depression,15,5.0,5.0,4.0,1.0,3.0,5.0
+27,anxiety,job crisis,10,,,4.0,,,
+28,anxiety,job crisis,12,5.0,5.0,3.0,1.0,2.0,5.0
+29,anger,job crisis,12,,,4.0,,,
+30,anxiety,academic pressure,12,5.0,5.0,5.0,1.0,4.0,5.0
+31,sadness,ongoing depression,18,5.0,5.0,3.0,1.0,2.0,5.0
+32,fear,job crisis,14,5.0,5.0,4.0,3.0,1.0,5.0
+33,anger,academic pressure,11,4.0,4.0,3.0,2.0,1.0,4.0
+34,anxiety,problems with friends,10,5.0,5.0,4.0,1.0,3.0,5.0
+35,disgust,problems with friends,13,4.0,4.0,3.0,2.0,1.0,4.0
+36,shame,job crisis,13,3.0,3.0,5.0,2.0,3.0,3.0
+37,depression,ongoing depression,16,4.0,4.0,5.0,3.0,2.0,4.0
+38,anxiety,ongoing depression,14,5.0,5.0,5.0,2.0,3.0,5.0
+39,anxiety,academic pressure,14,4.0,4.0,3.0,1.0,2.0,4.0
+40,anxiety,breakup with partner,14,5.0,5.0,4.0,1.0,3.0,5.0
+41,depression,ongoing depression,10,1.0,5.0,3.0,1.0,2.0,3.0
+42,sadness,Issues with Children,18,3.0,4.0,3.0,1.0,2.0,3.5
+43,sadness,job crisis,11,5.0,4.0,4.0,3.0,1.0,4.5
+44,depression,job crisis,14,5.0,5.0,4.0,2.0,2.0,5.0
+45,anger,problems with friends,18,4.0,5.0,4.0,2.0,2.0,4.5
+46,anxiety,job crisis,12,5.0,5.0,3.0,1.0,2.0,5.0
+47,anxiety,academic pressure,13,4.0,5.0,3.0,1.0,2.0,4.5
+48,anger,job crisis,14,5.0,5.0,5.0,2.0,3.0,5.0
+49,sadness,breakup with partner,12,,,5.0,,,
+50,anger,problems with friends,26,5.0,5.0,4.0,1.0,3.0,5.0
+51,anger,Sleep Problems,12,5.0,5.0,5.0,3.0,2.0,5.0
+52,sadness,breakup with partner,10,5.0,5.0,4.0,2.0,2.0,5.0
+53,anxiety,job crisis,12,4.0,5.0,4.0,2.0,2.0,4.5
+54,anxiety,job crisis,10,1.0,5.0,3.0,1.0,2.0,3.0
+55,sadness,job crisis,10,,,4.0,,,
+56,anxiety,job crisis,20,5.0,5.0,3.0,2.0,1.0,5.0
+57,shame,Appearance Anxiety,19,5.0,5.0,4.0,3.0,1.0,5.0
+58,anxiety,academic pressure,11,4.0,4.0,3.0,2.0,1.0,4.0
+59,depression,ongoing depression,14,5.0,5.0,3.0,2.0,1.0,5.0
+60,sadness,Issues with Children,16,5.0,4.0,5.0,3.0,2.0,4.5
+61,depression,ongoing depression,20,4.0,5.0,3.0,1.0,2.0,4.5
+62,anxiety,ongoing depression,18,5.0,5.0,4.0,2.0,2.0,5.0
+63,anger,breakup with partner,12,3.0,4.0,4.0,3.0,1.0,3.5
+64,anger,problems with friends,18,5.0,5.0,5.0,1.0,4.0,5.0
+65,anxiety,academic pressure,10,3.0,3.0,3.0,2.0,1.0,3.0
+66,anxiety,ongoing depression,16,5.0,4.0,4.0,1.0,3.0,4.5
+67,sadness,problems with friends,12,5.0,5.0,5.0,3.0,2.0,5.0
+68,depression,breakup with partner,21,5.0,5.0,4.0,1.0,3.0,5.0
+69,depression,job crisis,14,4.0,5.0,4.0,2.0,2.0,4.5
+70,depression,ongoing depression,8,,,5.0,,,
+71,anxiety,academic pressure,17,5.0,5.0,4.0,2.0,2.0,5.0
+72,anger,problems with friends,13,5.0,5.0,5.0,1.0,4.0,5.0
+73,sadness,breakup with partner,12,4.0,5.0,4.0,2.0,2.0,4.5
+74,depression,ongoing depression,12,4.0,5.0,4.0,3.0,1.0,4.5
+75,depression,ongoing depression,10,5.0,5.0,5.0,3.0,2.0,5.0
+76,depression,ongoing depression,14,5.0,5.0,4.0,3.0,1.0,5.0
+77,depression,breakup with partner,39,5.0,5.0,4.0,1.0,3.0,5.0
+78,sadness,ongoing depression,13,5.0,5.0,4.0,3.0,1.0,5.0
+79,sadness,job crisis,10,4.0,4.0,4.0,3.0,1.0,4.0
+80,anxiety,breakup with partner,12,5.0,5.0,3.0,2.0,1.0,5.0
+81,depression,ongoing depression,20,4.0,4.0,5.0,4.0,1.0,4.0
+82,sadness,problems with friends,18,4.0,4.0,3.0,2.0,1.0,4.0
+83,anxiety,ongoing depression,13,5.0,5.0,4.0,3.0,1.0,5.0
+84,sadness,problems with friends,14,,,5.0,,,
+85,shame,academic pressure,12,3.0,3.0,3.0,2.0,1.0,3.0
+86,depression,ongoing depression,11,4.0,5.0,5.0,4.0,1.0,4.5
+87,sadness,breakup with partner,17,5.0,5.0,5.0,1.0,4.0,5.0
+88,sadness,ongoing depression,14,5.0,4.0,4.0,3.0,1.0,4.5
+89,depression,job crisis,19,5.0,5.0,4.0,1.0,3.0,5.0
+90,fear,ongoing depression,12,,,5.0,,,
+91,anxiety,ongoing depression,14,5.0,5.0,4.0,2.0,2.0,5.0
+92,sadness,breakup with partner,10,5.0,5.0,5.0,1.0,4.0,5.0
+93,depression,ongoing depression,23,3.0,2.0,5.0,2.0,3.0,2.5
+94,depression,job crisis,13,,,4.0,,,
+95,anxiety,breakup with partner,16,5.0,5.0,5.0,1.0,4.0,5.0
+96,anxiety,job crisis,12,5.0,5.0,4.0,3.0,1.0,5.0
+97,depression,Alcohol Abuse,11,5.0,5.0,5.0,2.0,3.0,5.0
+98,depression,ongoing depression,17,3.0,4.0,3.0,2.0,1.0,3.5
+99,sadness,ongoing depression,20,5.0,5.0,3.0,2.0,1.0,5.0
+100,depression,ongoing depression,12,5.0,5.0,4.0,2.0,2.0,5.0
+101,disgust,breakup with partner,22,5.0,5.0,5.0,3.0,2.0,5.0
+102,fear,job crisis,26,5.0,5.0,5.0,2.0,3.0,5.0
+103,anxiety,job crisis,23,5.0,4.0,4.0,3.0,1.0,4.5
+104,sadness,breakup with partner,13,5.0,5.0,4.0,3.0,1.0,5.0
+105,disgust,breakup with partner,12,5.0,5.0,5.0,1.0,4.0,5.0
+106,anxiety,job crisis,11,5.0,5.0,4.0,3.0,1.0,5.0
+107,anxiety,job crisis,10,,,5.0,,,
+108,disgust,problems with friends,19,4.0,5.0,3.0,2.0,1.0,4.5
+109,sadness,breakup with partner,10,5.0,5.0,2.0,1.0,1.0,5.0
+110,anxiety,problems with friends,13,3.0,3.0,4.0,3.0,1.0,3.0
+111,anxiety,ongoing depression,14,4.0,4.0,3.0,1.0,2.0,4.0
+112,depression,job crisis,11,4.0,4.0,5.0,1.0,4.0,4.0
+113,depression,ongoing depression,10,5.0,5.0,4.0,2.0,2.0,5.0
+114,sadness,ongoing depression,21,3.0,3.0,4.0,3.0,1.0,3.0
+115,sadness,problems with friends,13,5.0,5.0,2.0,1.0,1.0,5.0
+116,disgust,ongoing depression,15,5.0,5.0,5.0,1.0,4.0,5.0
+117,depression,ongoing depression,14,5.0,5.0,5.0,2.0,3.0,5.0
+118,shame,Procrastination,13,5.0,5.0,3.0,1.0,2.0,5.0
+119,anxiety,academic pressure,10,,,4.0,,,
+120,anxiety,academic pressure,12,,,4.0,,,
+121,sadness,breakup with partner,22,,,2.0,,,
+122,anxiety,job crisis,10,5.0,5.0,4.0,3.0,1.0,5.0
+123,depression,breakup with partner,23,4.0,4.0,4.0,2.0,2.0,4.0
+124,anxiety,job crisis,15,5.0,5.0,5.0,1.0,4.0,5.0
+125,sadness,job crisis,14,5.0,5.0,3.0,2.0,1.0,5.0
+126,anxiety,ongoing depression,23,4.0,3.0,4.0,3.0,1.0,3.5
+127,sadness,breakup with partner,27,5.0,5.0,4.0,2.0,2.0,5.0
+128,sadness,Sleep Problems,17,5.0,5.0,3.0,1.0,2.0,5.0
+129,depression,breakup with partner,18,2.0,4.0,5.0,4.0,1.0,3.0
+130,anxiety,job crisis,11,5.0,5.0,5.0,2.0,3.0,5.0
+131,anxiety,ongoing depression,14,5.0,4.0,4.0,3.0,1.0,4.5
+132,depression,problems with friends,14,5.0,4.0,3.0,2.0,1.0,4.5
+133,anger,problems with friends,18,5.0,5.0,4.0,2.0,2.0,5.0
+134,fear,job crisis,19,5.0,5.0,3.0,2.0,1.0,5.0
+135,anxiety,academic pressure,15,3.0,3.0,3.0,2.0,1.0,3.0
+136,sadness,breakup with partner,18,4.0,4.0,4.0,2.0,2.0,4.0
+137,depression,ongoing depression,9,,,5.0,,,
+138,fear,job crisis,10,3.0,4.0,4.0,3.0,1.0,3.5
+139,anxiety,breakup with partner,14,5.0,5.0,3.0,2.0,1.0,5.0
+140,disgust,job crisis,10,5.0,5.0,4.0,2.0,2.0,5.0
+141,fear,academic pressure,15,5.0,5.0,3.0,2.0,1.0,5.0
+142,depression,ongoing depression,12,5.0,5.0,4.0,2.0,2.0,5.0
+143,sadness,ongoing depression,18,,,3.0,,,
+144,depression,ongoing depression,16,4.0,4.0,5.0,2.0,3.0,4.0
+145,sadness,ongoing depression,12,5.0,5.0,5.0,1.0,4.0,5.0
+146,depression,Sleep Problems,21,4.0,4.0,3.0,2.0,1.0,4.0
+147,sadness,job crisis,13,4.0,4.0,4.0,2.0,2.0,4.0
+148,anxiety,job crisis,12,4.0,5.0,3.0,2.0,1.0,4.5
+149,depression,ongoing depression,16,4.0,5.0,4.0,2.0,2.0,4.5
+150,sadness,problems with friends,10,4.0,4.0,5.0,4.0,1.0,4.0
+151,sadness,problems with friends,15,4.0,4.0,3.0,2.0,1.0,4.0
+152,depression,job crisis,16,4.0,4.0,4.0,2.0,2.0,4.0
+153,anxiety,academic pressure,16,5.0,5.0,5.0,1.0,4.0,5.0
+154,anxiety,job crisis,17,,,3.0,,,
+155,depression,ongoing depression,10,3.0,3.0,4.0,3.0,1.0,3.0
+156,anxiety,job crisis,14,4.0,5.0,3.0,2.0,1.0,4.5
+157,depression,ongoing depression,11,3.0,4.0,5.0,3.0,2.0,3.5
+158,sadness,problems with friends,10,4.0,4.0,5.0,3.0,2.0,4.0
+159,anxiety,Issues with Children,25,5.0,5.0,3.0,2.0,1.0,5.0
+160,sadness,breakup with partner,10,5.0,5.0,5.0,1.0,4.0,5.0
+161,shame,ongoing depression,11,5.0,5.0,5.0,3.0,2.0,5.0
+162,depression,ongoing depression,11,,,5.0,,,
+163,anger,problems with friends,14,5.0,5.0,4.0,1.0,3.0,5.0
+164,sadness,ongoing depression,12,5.0,5.0,3.0,1.0,2.0,5.0
+165,anxiety,ongoing depression,10,3.0,4.0,4.0,3.0,1.0,3.5
+166,guilt,breakup with partner,13,4.0,4.0,5.0,1.0,4.0,4.0
+167,shame,Alcohol Abuse,19,5.0,5.0,4.0,2.0,2.0,5.0
+168,anxiety,ongoing depression,15,5.0,5.0,5.0,3.0,2.0,5.0
+169,sadness,ongoing depression,14,4.0,4.0,4.0,3.0,1.0,4.0
+170,anxiety,job crisis,14,5.0,5.0,5.0,4.0,1.0,5.0
+171,anxiety,job crisis,14,5.0,5.0,5.0,1.0,4.0,5.0
+172,depression,ongoing depression,16,5.0,4.0,4.0,2.0,2.0,4.5
+173,fear,job crisis,22,5.0,5.0,4.0,2.0,2.0,5.0
+174,shame,job crisis,20,5.0,5.0,4.0,1.0,3.0,5.0
+175,fear,job crisis,10,3.0,3.0,4.0,3.0,1.0,3.0
+176,depression,ongoing depression,13,5.0,5.0,4.0,3.0,1.0,5.0
+177,disgust,problems with friends,14,5.0,5.0,2.0,1.0,1.0,5.0
+178,anxiety,ongoing depression,10,5.0,5.0,4.0,2.0,2.0,5.0
+179,anxiety,job crisis,13,5.0,5.0,5.0,4.0,1.0,5.0
+180,sadness,breakup with partner,15,5.0,5.0,4.0,2.0,2.0,5.0
+181,anxiety,academic pressure,18,5.0,5.0,3.0,1.0,2.0,5.0
+182,anxiety,problems with friends,12,5.0,5.0,5.0,2.0,3.0,5.0
+183,anxiety,academic pressure,11,5.0,5.0,4.0,1.0,3.0,5.0
+184,anxiety,problems with friends,11,5.0,5.0,3.0,2.0,1.0,5.0
+185,sadness,ongoing depression,53,,,4.0,,,
+186,depression,breakup with partner,18,4.0,5.0,5.0,3.0,2.0,4.5
+187,depression,ongoing depression,10,4.0,4.0,4.0,3.0,1.0,4.0
+188,jealousy,problems with friends,14,5.0,5.0,4.0,2.0,2.0,5.0
+189,anxiety,job crisis,10,,,5.0,,,
+190,fear,academic pressure,15,4.0,5.0,5.0,3.0,2.0,4.5
+191,depression,breakup with partner,12,5.0,5.0,4.0,1.0,3.0,5.0
+192,sadness,ongoing depression,13,5.0,5.0,5.0,4.0,1.0,5.0
+193,anxiety,job crisis,14,4.0,4.0,4.0,2.0,2.0,4.0
+194,sadness,breakup with partner,10,4.0,5.0,5.0,3.0,2.0,4.5
+195,anxiety,Sleep Problems,8,,,5.0,,,
+196,depression,job crisis,12,5.0,5.0,4.0,3.0,1.0,5.0
+197,sadness,ongoing depression,16,5.0,5.0,3.0,2.0,1.0,5.0
+198,anger,breakup with partner,13,3.0,5.0,5.0,1.0,4.0,4.0
+199,depression,Appearance Anxiety,11,5.0,5.0,4.0,3.0,1.0,5.0
+200,fear,problems with friends,11,3.0,4.0,4.0,3.0,1.0,3.5
+201,depression,ongoing depression,10,,,4.0,,,
+202,anxiety,academic pressure,10,5.0,5.0,5.0,4.0,1.0,5.0
+203,depression,ongoing depression,12,3.0,3.0,4.0,3.0,1.0,3.0
+204,anxiety,ongoing depression,12,3.0,5.0,4.0,3.0,1.0,4.0
+205,sadness,breakup with partner,14,3.0,3.0,4.0,3.0,1.0,3.0
+206,sadness,breakup with partner,13,,,5.0,,,
+207,anxiety,academic pressure,13,1.0,4.0,4.0,3.0,1.0,2.5
+208,fear,job crisis,34,5.0,5.0,4.0,1.0,3.0,5.0
+209,anxiety,Sleep Problems,16,5.0,5.0,4.0,3.0,1.0,5.0
+210,nervousness,academic pressure,13,5.0,5.0,4.0,3.0,1.0,5.0
+211,fear,academic pressure,16,3.0,4.0,4.0,2.0,2.0,3.5
+212,anger,problems with friends,5,,,4.0,,,
+213,sadness,ongoing depression,18,5.0,5.0,4.0,1.0,3.0,5.0
+214,anxiety,academic pressure,13,3.0,5.0,4.0,3.0,1.0,4.0
+215,anxiety,ongoing depression,11,5.0,5.0,3.0,2.0,1.0,5.0
+216,anxiety,ongoing depression,19,,,4.0,,,
+217,sadness,breakup with partner,25,5.0,5.0,4.0,2.0,2.0,5.0
+218,anxiety,job crisis,10,5.0,5.0,4.0,2.0,2.0,5.0
+219,depression,ongoing depression,10,4.0,4.0,4.0,3.0,1.0,4.0
+220,shame,academic pressure,19,5.0,3.0,4.0,2.0,2.0,4.0
+221,depression,job crisis,14,5.0,5.0,3.0,1.0,2.0,5.0
+222,sadness,ongoing depression,16,4.0,4.0,4.0,3.0,1.0,4.0
+223,anger,problems with friends,10,5.0,5.0,4.0,2.0,2.0,5.0
+224,sadness,job crisis,10,5.0,5.0,5.0,1.0,4.0,5.0
+225,sadness,ongoing depression,12,4.0,5.0,3.0,2.0,1.0,4.5
+226,depression,breakup with partner,32,5.0,5.0,5.0,4.0,1.0,5.0
+227,anxiety,academic pressure,10,5.0,5.0,4.0,2.0,2.0,5.0
+228,depression,ongoing depression,13,5.0,5.0,5.0,2.0,3.0,5.0
+229,anxiety,academic pressure,18,4.0,4.0,4.0,2.0,2.0,4.0
+230,anger,ongoing depression,13,5.0,5.0,2.0,1.0,1.0,5.0
+231,depression,ongoing depression,14,4.0,4.0,5.0,4.0,1.0,4.0
+232,anxiety,ongoing depression,10,,,4.0,,,
+233,anxiety,job crisis,13,5.0,5.0,5.0,3.0,2.0,5.0
+234,anxiety,breakup with partner,13,5.0,5.0,4.0,2.0,2.0,5.0
+235,anger,breakup with partner,11,,,3.0,,,
+236,sadness,breakup with partner,9,,,4.0,,,
+237,depression,breakup with partner,18,5.0,4.0,5.0,1.0,4.0,4.5
+238,anxiety,academic pressure,10,,,4.0,,,
+239,depression,breakup with partner,9,,,3.0,,,
+240,sadness,breakup with partner,12,4.0,5.0,4.0,3.0,1.0,4.5
+241,depression,academic pressure,13,5.0,5.0,4.0,2.0,2.0,5.0
+242,anxiety,academic pressure,10,5.0,5.0,4.0,2.0,2.0,5.0
+243,sadness,problems with friends,12,5.0,4.0,3.0,2.0,1.0,4.5
+244,anxiety,academic pressure,10,4.0,4.0,5.0,2.0,3.0,4.0
+245,sadness,breakup with partner,21,,,5.0,,,
+246,sadness,ongoing depression,16,5.0,5.0,4.0,3.0,1.0,5.0
+247,depression,job crisis,11,3.0,4.0,4.0,3.0,1.0,3.5
+248,depression,breakup with partner,10,5.0,5.0,4.0,1.0,3.0,5.0
+249,anxiety,conflict with parents,11,5.0,5.0,4.0,2.0,2.0,5.0
+250,sadness,ongoing depression,9,,,3.0,,,
+251,anxiety,job crisis,14,5.0,5.0,4.0,2.0,2.0,5.0
+252,anxiety,academic pressure,12,4.0,5.0,4.0,2.0,2.0,4.5
+253,depression,problems with friends,12,5.0,5.0,5.0,3.0,2.0,5.0
+254,sadness,ongoing depression,6,,,5.0,,,
+255,sadness,conflict with parents,12,5.0,5.0,4.0,1.0,3.0,5.0
+256,depression,breakup with partner,18,5.0,5.0,5.0,1.0,4.0,5.0
+257,anxiety,academic pressure,14,5.0,5.0,4.0,2.0,2.0,5.0
+258,shame,problems with friends,11,5.0,5.0,3.0,1.0,2.0,5.0
+259,depression,job crisis,16,4.0,4.0,5.0,3.0,2.0,4.0
+260,depression,breakup with partner,13,4.0,4.0,4.0,2.0,2.0,4.0
+261,anxiety,job crisis,8,,,4.0,,,
+262,anxiety,Procrastination,15,,,5.0,,,
+263,anxiety,job crisis,15,,,1.0,,,
+264,sadness,breakup with partner,12,4.0,4.0,4.0,2.0,2.0,4.0
+265,anger,ongoing depression,11,5.0,5.0,3.0,1.0,2.0,5.0
+266,depression,ongoing depression,10,5.0,5.0,4.0,2.0,2.0,5.0
+267,anxiety,ongoing depression,12,5.0,5.0,4.0,1.0,3.0,5.0
+268,fear,job crisis,11,5.0,5.0,5.0,1.0,4.0,5.0
+269,depression,breakup with partner,15,4.0,4.0,5.0,4.0,1.0,4.0
+270,sadness,job crisis,12,5.0,5.0,4.0,1.0,3.0,5.0
+271,depression,job crisis,13,5.0,5.0,5.0,2.0,3.0,5.0
+272,anxiety,job crisis,11,5.0,5.0,3.0,1.0,2.0,5.0
+273,fear,job crisis,15,5.0,3.0,4.0,3.0,1.0,4.0
+274,depression,ongoing depression,11,,,5.0,,,
+275,sadness,job crisis,16,5.0,5.0,3.0,2.0,1.0,5.0
+276,depression,ongoing depression,13,4.0,5.0,5.0,2.0,3.0,4.5
+277,depression,ongoing depression,17,5.0,4.0,5.0,3.0,2.0,4.5
+278,depression,ongoing depression,10,5.0,5.0,5.0,3.0,2.0,5.0
+279,anxiety,academic pressure,12,5.0,5.0,4.0,2.0,2.0,5.0
+280,depression,ongoing depression,18,4.0,4.0,4.0,2.0,2.0,4.0
+281,depression,ongoing depression,10,4.0,4.0,4.0,2.0,2.0,4.0
+282,depression,ongoing depression,13,4.0,4.0,5.0,2.0,3.0,4.0
+283,anxiety,ongoing depression,11,3.0,4.0,4.0,3.0,1.0,3.5
+284,sadness,breakup with partner,16,5.0,5.0,5.0,4.0,1.0,5.0
+285,sadness,breakup with partner,10,,,4.0,,,
+286,depression,job crisis,25,5.0,5.0,5.0,3.0,2.0,5.0
+287,anger,job crisis,12,5.0,5.0,4.0,3.0,1.0,5.0
+288,sadness,ongoing depression,21,5.0,5.0,5.0,1.0,4.0,5.0
+289,anxiety,academic pressure,10,4.0,4.0,2.0,1.0,1.0,4.0
+290,sadness,job crisis,10,3.0,4.0,3.0,2.0,1.0,3.5
+291,depression,ongoing depression,10,5.0,5.0,5.0,4.0,1.0,5.0
+292,fear,academic pressure,10,4.0,4.0,2.0,1.0,1.0,4.0
+293,sadness,breakup with partner,10,4.0,4.0,4.0,2.0,2.0,4.0
+294,sadness,problems with friends,15,5.0,5.0,3.0,1.0,2.0,5.0
+295,anxiety,academic pressure,10,,,5.0,,,
+296,sadness,ongoing depression,10,,,4.0,,,
+297,sadness,Sleep Problems,15,5.0,5.0,4.0,2.0,2.0,5.0
+298,anxiety,job crisis,14,4.0,4.0,2.0,1.0,1.0,4.0
+299,depression,ongoing depression,14,5.0,5.0,5.0,4.0,1.0,5.0
+300,sadness,breakup with partner,15,,,4.0,,,
+301,sadness,problems with friends,12,4.0,3.0,4.0,3.0,1.0,3.5
+302,sadness,Sleep Problems,17,5.0,5.0,4.0,2.0,2.0,5.0
+303,sadness,ongoing depression,10,5.0,5.0,5.0,1.0,4.0,5.0
+304,sadness,breakup with partner,10,5.0,5.0,4.0,1.0,3.0,5.0
+305,anxiety,academic pressure,10,3.0,5.0,5.0,3.0,2.0,4.0
+306,depression,ongoing depression,13,4.0,4.0,5.0,2.0,3.0,4.0
+307,anger,problems with friends,13,5.0,5.0,4.0,2.0,2.0,5.0
+308,depression,job crisis,22,4.0,3.0,4.0,3.0,1.0,3.5
+309,sadness,breakup with partner,13,5.0,5.0,5.0,1.0,4.0,5.0
+310,anxiety,job crisis,13,3.0,3.0,4.0,3.0,1.0,3.0
+311,anxiety,job crisis,10,4.0,3.0,4.0,2.0,2.0,3.5
+312,depression,ongoing depression,16,4.0,4.0,5.0,2.0,3.0,4.0
+313,sadness,ongoing depression,16,5.0,5.0,4.0,3.0,1.0,5.0
+314,anxiety,academic pressure,10,4.0,4.0,4.0,2.0,2.0,4.0
+315,anger,ongoing depression,13,5.0,5.0,4.0,3.0,1.0,5.0
+316,anger,job crisis,11,4.0,4.0,3.0,2.0,1.0,4.0
+317,anxiety,job crisis,8,,,4.0,,,
+318,depression,breakup with partner,16,4.0,5.0,2.0,1.0,1.0,4.5
+319,anxiety,job crisis,19,4.0,4.0,4.0,3.0,1.0,4.0
+320,anxiety,Appearance Anxiety,14,5.0,5.0,4.0,1.0,3.0,5.0
+321,sadness,job crisis,14,3.0,3.0,4.0,2.0,2.0,3.0
+322,sadness,problems with friends,18,5.0,5.0,2.0,1.0,1.0,5.0
+323,sadness,breakup with partner,14,4.0,4.0,4.0,2.0,2.0,4.0
+324,depression,problems with friends,11,4.0,3.0,5.0,2.0,3.0,3.5
+325,disgust,Procrastination,10,5.0,5.0,4.0,3.0,1.0,5.0
+326,anger,Issues with Parents,20,5.0,5.0,4.0,2.0,2.0,5.0
+327,sadness,ongoing depression,11,,,4.0,,,
+328,anger,problems with friends,12,4.0,4.0,3.0,2.0,1.0,4.0
+329,anger,conflict with parents,10,5.0,5.0,5.0,3.0,2.0,5.0
+330,depression,breakup with partner,15,5.0,5.0,5.0,4.0,1.0,5.0
+331,fear,job crisis,15,5.0,5.0,5.0,4.0,1.0,5.0
+332,sadness,breakup with partner,13,,,4.0,,,
+333,anxiety,academic pressure,13,5.0,5.0,5.0,4.0,1.0,5.0
+334,fear,academic pressure,13,5.0,5.0,2.0,1.0,1.0,5.0
+335,sadness,breakup with partner,12,5.0,5.0,4.0,3.0,1.0,5.0
+336,sadness,ongoing depression,12,3.0,4.0,3.0,1.0,2.0,3.5
+337,depression,job crisis,18,3.0,4.0,4.0,2.0,2.0,3.5
+338,depression,ongoing depression,10,4.0,4.0,3.0,2.0,1.0,4.0
+339,anxiety,Appearance Anxiety,12,5.0,5.0,4.0,2.0,2.0,5.0
+340,sadness,conflict with parents,18,5.0,5.0,5.0,3.0,2.0,5.0
+341,sadness,job crisis,13,4.0,4.0,4.0,3.0,1.0,4.0
+342,anger,problems with friends,19,3.0,3.0,5.0,3.0,2.0,3.0
+343,anxiety,academic pressure,17,4.0,4.0,4.0,2.0,2.0,4.0
+344,anger,job crisis,13,4.0,5.0,5.0,2.0,3.0,4.5
+345,fear,breakup with partner,15,3.0,4.0,3.0,2.0,1.0,3.5
+346,anxiety,job crisis,13,3.0,3.0,4.0,2.0,2.0,3.0
+347,sadness,ongoing depression,10,4.0,4.0,4.0,3.0,1.0,4.0
+348,sadness,breakup with partner,15,5.0,5.0,4.0,2.0,2.0,5.0
+349,sadness,Alcohol Abuse,16,5.0,5.0,4.0,2.0,2.0,5.0
+350,anger,problems with friends,14,5.0,5.0,5.0,3.0,2.0,5.0
+351,disgust,problems with friends,12,5.0,4.0,4.0,1.0,3.0,4.5
+352,depression,Alcohol Abuse,11,5.0,5.0,4.0,3.0,1.0,5.0
+353,depression,ongoing depression,16,5.0,5.0,5.0,2.0,3.0,5.0
+354,anxiety,job crisis,10,4.0,4.0,4.0,3.0,1.0,4.0
+355,fear,job crisis,14,4.0,5.0,4.0,2.0,2.0,4.5
+356,anger,problems with friends,34,5.0,5.0,5.0,1.0,4.0,5.0
+357,anxiety,job crisis,10,5.0,5.0,4.0,3.0,1.0,5.0
+358,anxiety,academic pressure,12,5.0,5.0,2.0,1.0,1.0,5.0
+359,anxiety,job crisis,16,5.0,5.0,3.0,2.0,1.0,5.0
+360,depression,job crisis,23,4.0,4.0,4.0,2.0,2.0,4.0
+361,anxiety,ongoing depression,13,5.0,5.0,5.0,4.0,1.0,5.0
+362,fear,ongoing depression,12,4.0,3.0,3.0,2.0,1.0,3.5
+363,anxiety,academic pressure,10,5.0,5.0,5.0,2.0,3.0,5.0
+364,depression,ongoing depression,22,5.0,5.0,4.0,3.0,1.0,5.0
+365,sadness,ongoing depression,14,5.0,5.0,4.0,3.0,1.0,5.0
+366,fear,job crisis,13,,,5.0,,,
+367,anger,problems with friends,11,5.0,5.0,4.0,2.0,2.0,5.0
+368,fear,job crisis,19,5.0,5.0,4.0,2.0,2.0,5.0
+369,depression,ongoing depression,11,4.0,4.0,3.0,2.0,1.0,4.0
+370,anxiety,job crisis,12,5.0,5.0,4.0,2.0,2.0,5.0
+371,anxiety,ongoing depression,19,5.0,5.0,4.0,2.0,2.0,5.0
+372,depression,ongoing depression,17,5.0,5.0,3.0,1.0,2.0,5.0
+373,sadness,problems with friends,14,5.0,5.0,5.0,4.0,1.0,5.0
+374,anxiety,Sleep Problems,14,5.0,5.0,4.0,2.0,2.0,5.0
+375,anxiety,academic pressure,10,4.0,5.0,4.0,3.0,1.0,4.5
+376,sadness,ongoing depression,13,5.0,5.0,5.0,3.0,2.0,5.0
+377,sadness,breakup with partner,14,,,4.0,,,
+378,anxiety,ongoing depression,13,4.0,4.0,4.0,3.0,1.0,4.0
+379,anger,breakup with partner,13,5.0,5.0,5.0,3.0,2.0,5.0
+380,fear,job crisis,12,5.0,5.0,5.0,2.0,3.0,5.0
+381,sadness,breakup with partner,14,5.0,5.0,5.0,1.0,4.0,5.0
+382,anxiety,job crisis,13,4.0,4.0,3.0,2.0,1.0,4.0
+383,anger,problems with friends,10,5.0,5.0,5.0,2.0,3.0,5.0
+384,anxiety,academic pressure,10,4.0,4.0,5.0,1.0,4.0,4.0
+385,sadness,ongoing depression,12,5.0,4.0,3.0,2.0,1.0,4.5
+386,sadness,Issues with Children,8,,,5.0,,,
+387,disgust,Appearance Anxiety,18,3.0,3.0,4.0,2.0,2.0,3.0
+388,depression,ongoing depression,12,5.0,5.0,4.0,3.0,1.0,5.0
+389,anxiety,academic pressure,14,4.0,4.0,5.0,4.0,1.0,4.0
+390,depression,ongoing depression,19,4.0,5.0,3.0,2.0,1.0,4.5
+391,depression,ongoing depression,11,4.0,5.0,3.0,2.0,1.0,4.5
+392,anxiety,job crisis,19,5.0,5.0,4.0,2.0,2.0,5.0
+393,depression,breakup with partner,18,4.0,4.0,3.0,2.0,1.0,4.0
+394,sadness,ongoing depression,11,3.0,5.0,3.0,2.0,1.0,4.0
+395,anxiety,problems with friends,13,5.0,5.0,4.0,1.0,3.0,5.0
+396,depression,academic pressure,13,5.0,5.0,5.0,2.0,3.0,5.0
+397,anxiety,academic pressure,20,5.0,5.0,5.0,3.0,2.0,5.0
+398,anger,academic pressure,21,3.0,5.0,4.0,2.0,2.0,4.0
+399,depression,job crisis,10,5.0,5.0,5.0,2.0,3.0,5.0
+400,disgust,ongoing depression,11,5.0,5.0,5.0,4.0,1.0,5.0
+401,sadness,job crisis,13,5.0,5.0,4.0,2.0,2.0,5.0
+402,sadness,ongoing depression,20,5.0,5.0,5.0,2.0,3.0,5.0
+403,anxiety,ongoing depression,16,3.0,3.0,3.0,2.0,1.0,3.0
+404,fear,job crisis,17,4.0,4.0,3.0,2.0,1.0,4.0
+405,anxiety,academic pressure,13,5.0,5.0,2.0,1.0,1.0,5.0
+406,sadness,problems with friends,13,5.0,5.0,2.0,1.0,1.0,5.0
+407,anger,ongoing depression,22,5.0,5.0,5.0,3.0,2.0,5.0
+408,anxiety,ongoing depression,13,5.0,5.0,5.0,2.0,3.0,5.0
+409,anxiety,academic pressure,17,4.0,5.0,3.0,2.0,1.0,4.5
+410,anxiety,job crisis,17,4.0,5.0,4.0,3.0,1.0,4.5
+411,anxiety,job crisis,14,5.0,5.0,4.0,3.0,1.0,5.0
+412,anxiety,job crisis,13,5.0,4.0,4.0,3.0,1.0,4.5
+413,sadness,ongoing depression,12,5.0,5.0,3.0,1.0,2.0,5.0
+414,sadness,academic pressure,10,,,5.0,,,
+415,depression,breakup with partner,18,5.0,5.0,5.0,3.0,2.0,5.0
+416,depression,breakup with partner,19,5.0,5.0,5.0,2.0,3.0,5.0
+417,sadness,problems with friends,11,,,4.0,,,
+418,depression,breakup with partner,13,5.0,5.0,4.0,3.0,1.0,5.0
+419,fear,problems with friends,14,4.0,4.0,4.0,3.0,1.0,4.0
+420,sadness,ongoing depression,10,5.0,5.0,4.0,2.0,2.0,5.0
+421,fear,job crisis,10,4.0,3.0,4.0,3.0,1.0,3.5
+422,depression,ongoing depression,10,5.0,5.0,5.0,4.0,1.0,5.0
+423,depression,School Bullying,13,5.0,4.0,5.0,1.0,4.0,4.5
+424,sadness,ongoing depression,14,5.0,5.0,3.0,1.0,2.0,5.0
+425,anxiety,job crisis,28,4.0,4.0,4.0,2.0,2.0,4.0
+426,anxiety,academic pressure,15,5.0,5.0,3.0,2.0,1.0,5.0
+427,depression,ongoing depression,12,5.0,5.0,4.0,2.0,2.0,5.0
+428,depression,ongoing depression,12,5.0,5.0,5.0,1.0,4.0,5.0
+429,anxiety,ongoing depression,22,5.0,5.0,3.0,1.0,2.0,5.0
+430,depression,breakup with partner,11,5.0,5.0,5.0,1.0,4.0,5.0
+431,anxiety,job crisis,10,3.0,3.0,5.0,3.0,2.0,3.0
+432,depression,job crisis,23,4.0,4.0,4.0,2.0,2.0,4.0
+433,sadness,job crisis,11,,,4.0,,,
+434,depression,Procrastination,15,,,5.0,,,
+435,fear,breakup with partner,18,4.0,5.0,5.0,2.0,3.0,4.5
+436,depression,problems with friends,12,5.0,3.0,5.0,1.0,4.0,4.0
+437,sadness,ongoing depression,11,5.0,5.0,4.0,1.0,3.0,5.0
+438,sadness,breakup with partner,17,5.0,5.0,4.0,1.0,3.0,5.0
+439,sadness,breakup with partner,11,5.0,5.0,5.0,1.0,4.0,5.0
+440,depression,ongoing depression,13,,,4.0,,,
+441,sadness,problems with friends,23,5.0,5.0,5.0,2.0,3.0,5.0
+442,depression,breakup with partner,17,4.0,4.0,5.0,4.0,1.0,4.0
+443,depression,breakup with partner,9,,,3.0,,,
+444,anxiety,Sleep Problems,13,5.0,4.0,4.0,2.0,2.0,4.5
+445,fear,job crisis,18,5.0,5.0,5.0,1.0,4.0,5.0
+446,anxiety,ongoing depression,14,5.0,5.0,4.0,1.0,3.0,5.0
+447,sadness,breakup with partner,11,5.0,5.0,5.0,1.0,4.0,5.0
+448,anxiety,job crisis,11,3.0,5.0,5.0,3.0,2.0,4.0
+449,fear,job crisis,11,5.0,5.0,5.0,1.0,4.0,5.0
+450,anxiety,academic pressure,15,3.0,3.0,4.0,2.0,2.0,3.0
+451,disgust,Procrastination,12,,,2.0,,,
+452,depression,job crisis,15,5.0,5.0,5.0,2.0,3.0,5.0
+453,sadness,breakup with partner,8,,,3.0,,,
+454,depression,ongoing depression,13,5.0,5.0,3.0,2.0,1.0,5.0
+455,fear,ongoing depression,17,5.0,5.0,5.0,1.0,4.0,5.0
+456,anger,job crisis,12,4.0,5.0,3.0,2.0,1.0,4.5
+457,anxiety,breakup with partner,14,2.0,4.0,5.0,3.0,2.0,3.0
+458,sadness,ongoing depression,13,5.0,5.0,4.0,2.0,2.0,5.0
+459,depression,ongoing depression,13,,,5.0,,,
+460,depression,problems with friends,12,4.0,4.0,3.0,1.0,2.0,4.0
+461,anxiety,academic pressure,13,5.0,5.0,4.0,2.0,2.0,5.0
+462,fear,ongoing depression,11,5.0,5.0,4.0,3.0,1.0,5.0
+463,sadness,ongoing depression,15,3.0,4.0,3.0,2.0,1.0,3.5
+464,depression,ongoing depression,11,4.0,5.0,4.0,3.0,1.0,4.5
+465,anxiety,Sleep Problems,16,5.0,3.0,5.0,4.0,1.0,4.0
+466,anxiety,problems with friends,24,3.0,3.0,5.0,3.0,2.0,3.0
+467,sadness,breakup with partner,17,5.0,5.0,5.0,3.0,2.0,5.0
+468,sadness,breakup with partner,7,,,4.0,,,
+469,sadness,job crisis,20,4.0,4.0,4.0,2.0,2.0,4.0
+470,anger,conflict with parents,13,3.0,5.0,5.0,1.0,4.0,4.0
+471,sadness,problems with friends,12,5.0,5.0,5.0,2.0,3.0,5.0
+472,fear,job crisis,13,,,3.0,,,
+473,depression,job crisis,5,,,5.0,,,
+474,sadness,breakup with partner,20,5.0,5.0,5.0,1.0,4.0,5.0
+475,depression,ongoing depression,12,4.0,4.0,4.0,3.0,1.0,4.0
+476,sadness,problems with friends,11,4.0,5.0,4.0,2.0,2.0,4.5
+477,sadness,problems with friends,12,5.0,5.0,3.0,1.0,2.0,5.0
+478,anger,job crisis,18,5.0,5.0,3.0,1.0,2.0,5.0
+479,depression,ongoing depression,9,,,4.0,,,
+480,anger,Issues with Children,10,5.0,5.0,5.0,2.0,3.0,5.0
+481,sadness,problems with friends,10,5.0,5.0,3.0,2.0,1.0,5.0
+482,depression,Sleep Problems,12,5.0,5.0,4.0,1.0,3.0,5.0
+483,anxiety,ongoing depression,12,4.0,2.0,4.0,3.0,1.0,3.0
+484,depression,job crisis,11,4.0,4.0,4.0,2.0,2.0,4.0
+485,depression,ongoing depression,13,5.0,5.0,3.0,2.0,1.0,5.0
+486,anger,problems with friends,16,5.0,5.0,4.0,2.0,2.0,5.0
+487,anxiety,problems with friends,12,4.0,5.0,5.0,3.0,2.0,4.5
+488,anger,breakup with partner,21,4.0,4.0,4.0,3.0,1.0,4.0
+489,nervousness,conflict with parents,18,5.0,5.0,5.0,4.0,1.0,5.0
+490,depression,breakup with partner,14,5.0,5.0,5.0,1.0,4.0,5.0
+491,depression,breakup with partner,11,4.0,4.0,4.0,2.0,2.0,4.0
+492,anger,problems with friends,11,4.0,4.0,4.0,2.0,2.0,4.0
+493,anger,problems with friends,11,5.0,5.0,4.0,1.0,3.0,5.0
+494,fear,job crisis,11,,,3.0,,,
+495,sadness,problems with friends,13,5.0,5.0,4.0,3.0,1.0,5.0
+496,anger,academic pressure,16,4.0,3.0,5.0,3.0,2.0,3.5
+497,sadness,ongoing depression,13,4.0,4.0,3.0,2.0,1.0,4.0
+498,shame,ongoing depression,6,,,4.0,,,
+499,fear,job crisis,17,5.0,5.0,5.0,2.0,3.0,5.0
+500,anxiety,ongoing depression,20,5.0,5.0,5.0,4.0,1.0,5.0
+501,depression,ongoing depression,10,3.0,4.0,5.0,3.0,2.0,3.5
+502,depression,ongoing depression,21,5.0,5.0,5.0,1.0,4.0,5.0
+503,depression,ongoing depression,14,5.0,5.0,4.0,2.0,2.0,5.0
+504,sadness,breakup with partner,16,5.0,5.0,5.0,3.0,2.0,5.0
+505,sadness,breakup with partner,10,5.0,5.0,5.0,1.0,4.0,5.0
+506,sadness,breakup with partner,17,5.0,5.0,4.0,3.0,1.0,5.0
+507,shame,ongoing depression,14,4.0,5.0,3.0,2.0,1.0,4.5
+508,fear,job crisis,21,5.0,5.0,5.0,1.0,4.0,5.0
+509,disgust,ongoing depression,14,5.0,5.0,5.0,4.0,1.0,5.0
+510,fear,breakup with partner,19,5.0,5.0,2.0,1.0,1.0,5.0
+511,sadness,breakup with partner,14,5.0,5.0,4.0,2.0,2.0,5.0
+512,depression,job crisis,10,5.0,5.0,4.0,1.0,3.0,5.0
+513,anxiety,academic pressure,15,5.0,5.0,3.0,1.0,2.0,5.0
+514,anxiety,Procrastination,11,5.0,5.0,3.0,2.0,1.0,5.0
+515,sadness,breakup with partner,15,5.0,5.0,4.0,3.0,1.0,5.0
+516,anxiety,academic pressure,10,5.0,5.0,3.0,2.0,1.0,5.0
+517,depression,Sleep Problems,11,4.0,3.0,4.0,2.0,2.0,3.5
+518,depression,breakup with partner,12,5.0,5.0,4.0,1.0,3.0,5.0
+519,depression,breakup with partner,9,,,5.0,,,
+520,sadness,breakup with partner,16,4.0,5.0,5.0,2.0,3.0,4.5
+521,sadness,breakup with partner,12,5.0,5.0,5.0,1.0,4.0,5.0
+522,sadness,breakup with partner,20,5.0,5.0,4.0,1.0,3.0,5.0
+523,fear,ongoing depression,26,5.0,5.0,5.0,1.0,4.0,5.0
+524,sadness,breakup with partner,13,5.0,4.0,5.0,3.0,2.0,4.5
+525,anxiety,job crisis,11,5.0,5.0,5.0,1.0,4.0,5.0
+526,anxiety,job crisis,12,4.0,3.0,2.0,1.0,1.0,3.5
+527,anger,problems with friends,8,,,4.0,,,
+528,anxiety,job crisis,16,5.0,5.0,3.0,2.0,1.0,5.0
+529,anxiety,job crisis,15,5.0,5.0,4.0,2.0,2.0,5.0
+530,sadness,problems with friends,25,4.0,5.0,3.0,1.0,2.0,4.5
+531,sadness,breakup with partner,17,4.0,4.0,4.0,2.0,2.0,4.0
+532,anger,job crisis,15,4.0,4.0,4.0,3.0,1.0,4.0
+533,anxiety,job crisis,14,5.0,5.0,4.0,3.0,1.0,5.0
+534,anxiety,Alcohol Abuse,17,4.0,4.0,3.0,2.0,1.0,4.0
+535,nervousness,academic pressure,15,5.0,5.0,5.0,1.0,4.0,5.0
+536,anxiety,ongoing depression,15,3.0,3.0,5.0,2.0,3.0,3.0
+537,sadness,Sleep Problems,23,5.0,5.0,5.0,1.0,4.0,5.0
+538,sadness,ongoing depression,18,4.0,5.0,5.0,3.0,2.0,4.5
+539,depression,ongoing depression,13,4.0,3.0,4.0,2.0,2.0,3.5
+540,fear,job crisis,10,4.0,5.0,4.0,2.0,2.0,4.5
+541,depression,job crisis,12,5.0,5.0,4.0,1.0,3.0,5.0
+542,anger,academic pressure,10,4.0,4.0,3.0,2.0,1.0,4.0
+543,anger,job crisis,12,4.0,5.0,4.0,2.0,2.0,4.5
+544,depression,breakup with partner,16,5.0,5.0,4.0,2.0,2.0,5.0
+545,anxiety,Sleep Problems,19,5.0,5.0,3.0,2.0,1.0,5.0
+546,fear,Issues with Children,18,5.0,5.0,5.0,1.0,4.0,5.0
+547,pain,breakup with partner,14,3.0,4.0,5.0,3.0,2.0,3.5
+548,depression,ongoing depression,30,,,4.0,,,
+549,sadness,ongoing depression,12,4.0,4.0,3.0,2.0,1.0,4.0
+550,anxiety,academic pressure,15,3.0,3.0,3.0,2.0,1.0,3.0
+551,depression,ongoing depression,11,5.0,5.0,5.0,1.0,4.0,5.0
+552,depression,Sleep Problems,15,5.0,5.0,4.0,1.0,3.0,5.0
+553,depression,breakup with partner,13,,,4.0,,,
+554,depression,ongoing depression,12,5.0,5.0,5.0,1.0,4.0,5.0
+555,depression,ongoing depression,14,4.0,3.0,4.0,1.0,3.0,3.5
+556,anger,ongoing depression,10,5.0,5.0,3.0,2.0,1.0,5.0
+557,fear,ongoing depression,13,5.0,5.0,4.0,2.0,2.0,5.0
+558,depression,ongoing depression,8,,,1.0,,,
+559,sadness,ongoing depression,16,5.0,5.0,5.0,2.0,3.0,5.0
+560,sadness,problems with friends,11,5.0,5.0,2.0,1.0,1.0,5.0
+561,anxiety,breakup with partner,11,5.0,5.0,5.0,2.0,3.0,5.0
+562,anxiety,job crisis,14,5.0,5.0,3.0,1.0,2.0,5.0
+563,anxiety,job crisis,17,4.0,4.0,4.0,2.0,2.0,4.0
+564,anger,Issues with Parents,25,5.0,5.0,4.0,2.0,2.0,5.0
+565,anxiety,academic pressure,12,5.0,5.0,5.0,3.0,2.0,5.0
+566,depression,ongoing depression,15,5.0,5.0,3.0,2.0,1.0,5.0
+567,sadness,breakup with partner,22,5.0,5.0,4.0,3.0,1.0,5.0
+568,anxiety,academic pressure,15,5.0,5.0,3.0,2.0,1.0,5.0
+569,depression,breakup with partner,11,5.0,5.0,2.0,1.0,1.0,5.0
+570,sadness,breakup with partner,10,5.0,5.0,4.0,2.0,2.0,5.0
+571,depression,academic pressure,13,4.0,5.0,4.0,2.0,2.0,4.5
+572,shame,problems with friends,10,5.0,5.0,4.0,1.0,3.0,5.0
+573,disgust,breakup with partner,18,3.0,2.0,4.0,3.0,1.0,2.5
+574,sadness,breakup with partner,11,5.0,5.0,3.0,1.0,2.0,5.0
+575,sadness,ongoing depression,12,5.0,5.0,3.0,2.0,1.0,5.0
+576,depression,ongoing depression,13,5.0,5.0,5.0,1.0,4.0,5.0
+577,anger,job crisis,29,,,4.0,,,
+578,sadness,job crisis,17,5.0,5.0,5.0,1.0,4.0,5.0
+579,anxiety,academic pressure,13,5.0,5.0,3.0,1.0,2.0,5.0
+580,depression,Sleep Problems,16,5.0,5.0,4.0,1.0,3.0,5.0
+581,sadness,breakup with partner,11,5.0,5.0,5.0,1.0,4.0,5.0
+582,fear,job crisis,11,5.0,5.0,4.0,2.0,2.0,5.0
+583,sadness,breakup with partner,23,,,5.0,,,
+584,depression,problems with friends,19,5.0,5.0,5.0,1.0,4.0,5.0
+585,disgust,Issues with Children,21,5.0,5.0,3.0,1.0,2.0,5.0
+586,fear,Issues with Parents,10,5.0,5.0,5.0,3.0,2.0,5.0
+587,anxiety,job crisis,17,5.0,5.0,4.0,1.0,3.0,5.0
+588,shame,job crisis,10,5.0,5.0,5.0,3.0,2.0,5.0
+589,anxiety,job crisis,18,4.0,4.0,4.0,2.0,2.0,4.0
+590,depression,ongoing depression,12,5.0,5.0,3.0,1.0,2.0,5.0
+591,anxiety,ongoing depression,14,5.0,5.0,4.0,1.0,3.0,5.0
+592,sadness,problems with friends,12,4.0,5.0,4.0,3.0,1.0,4.5
+593,shame,ongoing depression,12,,,5.0,,,
+594,anxiety,job crisis,12,5.0,5.0,4.0,1.0,3.0,5.0
+595,sadness,problems with friends,13,5.0,5.0,3.0,1.0,2.0,5.0
+596,disgust,problems with friends,11,4.0,4.0,4.0,2.0,2.0,4.0
+597,anger,conflict with parents,12,5.0,5.0,5.0,2.0,3.0,5.0
+598,sadness,problems with friends,14,3.0,4.0,4.0,2.0,2.0,3.5
+599,anger,breakup with partner,9,,,5.0,,,
+600,sadness,ongoing depression,10,5.0,5.0,4.0,2.0,2.0,5.0
+601,fear,Sleep Problems,10,,,5.0,,,
+602,anxiety,job crisis,11,5.0,5.0,4.0,2.0,2.0,5.0
+603,depression,ongoing depression,7,,,3.0,,,
+604,anxiety,job crisis,24,4.0,5.0,5.0,3.0,2.0,4.5
+605,anxiety,academic pressure,10,5.0,5.0,4.0,2.0,2.0,5.0
+606,nervousness,academic pressure,12,5.0,5.0,5.0,4.0,1.0,5.0
+607,sadness,ongoing depression,12,4.0,4.0,3.0,2.0,1.0,4.0
+608,depression,ongoing depression,11,2.0,4.0,5.0,3.0,2.0,3.0
+609,depression,ongoing depression,35,5.0,5.0,4.0,3.0,1.0,5.0
+610,fear,job crisis,11,3.0,2.0,5.0,4.0,1.0,2.5
+611,anxiety,academic pressure,12,,,5.0,,,
+612,anxiety,job crisis,14,5.0,5.0,4.0,2.0,2.0,5.0
+613,depression,job crisis,12,5.0,5.0,3.0,2.0,1.0,5.0
+614,anxiety,job crisis,10,3.0,3.0,4.0,3.0,1.0,3.0
+615,depression,ongoing depression,19,5.0,5.0,4.0,3.0,1.0,5.0
+616,depression,breakup with partner,21,5.0,5.0,3.0,1.0,2.0,5.0
+617,sadness,problems with friends,11,5.0,5.0,3.0,1.0,2.0,5.0
+618,sadness,ongoing depression,17,5.0,5.0,5.0,3.0,2.0,5.0
+619,fear,ongoing depression,11,3.0,3.0,5.0,3.0,2.0,3.0
+620,anxiety,problems with friends,25,4.0,5.0,4.0,1.0,3.0,4.5
+621,depression,ongoing depression,14,4.0,5.0,5.0,2.0,3.0,4.5
+622,anxiety,job crisis,15,4.0,4.0,5.0,4.0,1.0,4.0
+623,sadness,breakup with partner,11,5.0,5.0,4.0,3.0,1.0,5.0
+624,shame,problems with friends,15,5.0,5.0,2.0,1.0,1.0,5.0
+625,anger,breakup with partner,11,3.0,4.0,4.0,3.0,1.0,3.5
+626,anxiety,job crisis,11,5.0,5.0,4.0,3.0,1.0,5.0
+627,depression,ongoing depression,10,5.0,5.0,5.0,3.0,2.0,5.0
+628,fear,job crisis,10,3.0,3.0,5.0,3.0,2.0,3.0
+629,depression,breakup with partner,22,5.0,5.0,3.0,2.0,1.0,5.0
+630,sadness,breakup with partner,12,5.0,5.0,4.0,2.0,2.0,5.0
+631,anxiety,job crisis,11,5.0,5.0,5.0,2.0,3.0,5.0
+632,sadness,problems with friends,11,5.0,5.0,3.0,2.0,1.0,5.0
+633,sadness,ongoing depression,10,4.0,4.0,5.0,4.0,1.0,4.0
+634,depression,Sleep Problems,14,3.0,3.0,4.0,3.0,1.0,3.0
+635,anger,problems with friends,12,3.0,4.0,5.0,3.0,2.0,3.5
+636,sadness,breakup with partner,15,4.0,4.0,5.0,3.0,2.0,4.0
+637,nervousness,academic pressure,10,5.0,5.0,4.0,1.0,3.0,5.0
+638,fear,academic pressure,15,5.0,5.0,4.0,1.0,3.0,5.0
+639,anxiety,job crisis,13,5.0,5.0,5.0,2.0,3.0,5.0
+640,depression,ongoing depression,10,4.0,5.0,5.0,3.0,2.0,4.5
+641,anger,breakup with partner,19,4.0,4.0,4.0,3.0,1.0,4.0
+642,depression,Alcohol Abuse,16,3.0,4.0,4.0,2.0,2.0,3.5
+643,anxiety,problems with friends,12,3.0,3.0,4.0,2.0,2.0,3.0
+644,sadness,ongoing depression,10,4.0,5.0,5.0,2.0,3.0,4.5
+645,depression,ongoing depression,14,5.0,5.0,5.0,3.0,2.0,5.0
+646,anxiety,job crisis,13,5.0,5.0,4.0,1.0,3.0,5.0
+647,anger,job crisis,11,4.0,4.0,5.0,3.0,2.0,4.0
+648,anger,problems with friends,12,5.0,5.0,5.0,1.0,4.0,5.0
+649,anxiety,ongoing depression,9,,,3.0,,,
+650,disgust,problems with friends,11,3.0,3.0,3.0,2.0,1.0,3.0
+651,anxiety,job crisis,16,3.0,2.0,4.0,3.0,1.0,2.5
+652,depression,ongoing depression,16,3.0,3.0,4.0,3.0,1.0,3.0
+653,anxiety,breakup with partner,11,5.0,5.0,5.0,1.0,4.0,5.0
+654,anger,breakup with partner,12,5.0,5.0,2.0,1.0,1.0,5.0
+655,disgust,problems with friends,13,5.0,5.0,4.0,2.0,2.0,5.0
+656,sadness,academic pressure,18,5.0,5.0,3.0,1.0,2.0,5.0
+657,anxiety,ongoing depression,24,5.0,5.0,3.0,1.0,2.0,5.0
+658,anxiety,problems with friends,19,4.0,3.0,4.0,1.0,3.0,3.5
+659,depression,School Bullying,13,5.0,5.0,4.0,2.0,2.0,5.0
+660,depression,ongoing depression,13,4.0,5.0,3.0,2.0,1.0,4.5
+661,sadness,breakup with partner,8,,,5.0,,,
+662,fear,academic pressure,13,5.0,5.0,4.0,3.0,1.0,5.0
+663,sadness,ongoing depression,15,5.0,5.0,3.0,2.0,1.0,5.0
+664,anger,job crisis,22,5.0,5.0,4.0,1.0,3.0,5.0
+665,sadness,breakup with partner,15,5.0,4.0,4.0,2.0,2.0,4.5
+666,depression,ongoing depression,15,4.0,4.0,3.0,2.0,1.0,4.0
+667,depression,breakup with partner,11,5.0,5.0,5.0,1.0,4.0,5.0
+668,sadness,breakup with partner,10,5.0,5.0,5.0,3.0,2.0,5.0
+669,anxiety,academic pressure,12,5.0,5.0,4.0,1.0,3.0,5.0
+670,depression,ongoing depression,16,3.0,3.0,4.0,3.0,1.0,3.0
+671,sadness,breakup with partner,18,4.0,4.0,4.0,2.0,2.0,4.0
+672,depression,ongoing depression,12,4.0,4.0,5.0,4.0,1.0,4.0
+673,sadness,breakup with partner,9,,,4.0,,,
+674,sadness,problems with friends,12,5.0,5.0,5.0,2.0,3.0,5.0
+675,fear,job crisis,20,5.0,4.0,5.0,1.0,4.0,4.5
+676,depression,ongoing depression,13,5.0,5.0,5.0,1.0,4.0,5.0
+677,depression,breakup with partner,13,5.0,5.0,5.0,3.0,2.0,5.0
+678,sadness,breakup with partner,14,5.0,5.0,5.0,1.0,4.0,5.0
+679,anxiety,job crisis,13,4.0,4.0,5.0,3.0,2.0,4.0
+680,anger,breakup with partner,10,5.0,5.0,5.0,1.0,4.0,5.0
+681,sadness,ongoing depression,10,5.0,5.0,3.0,1.0,2.0,5.0
+682,depression,ongoing depression,11,,,5.0,,,
+683,depression,ongoing depression,14,5.0,5.0,4.0,1.0,3.0,5.0
+684,sadness,breakup with partner,12,5.0,5.0,5.0,4.0,1.0,5.0
+685,depression,problems with friends,13,4.0,4.0,5.0,2.0,3.0,4.0
+686,anxiety,job crisis,13,5.0,5.0,4.0,2.0,2.0,5.0
+687,anger,problems with friends,11,4.0,5.0,4.0,3.0,1.0,4.5
+688,fear,academic pressure,10,4.0,4.0,4.0,2.0,2.0,4.0
+689,anxiety,job crisis,11,5.0,5.0,4.0,1.0,3.0,5.0
+690,anxiety,problems with friends,13,5.0,5.0,5.0,1.0,4.0,5.0
+691,anxiety,academic pressure,10,4.0,5.0,4.0,1.0,3.0,4.5
+692,depression,breakup with partner,11,5.0,5.0,5.0,2.0,3.0,5.0
+693,depression,ongoing depression,12,4.0,4.0,4.0,3.0,1.0,4.0
+694,depression,job crisis,13,5.0,5.0,5.0,3.0,2.0,5.0
+695,depression,job crisis,14,5.0,5.0,4.0,2.0,2.0,5.0
+696,fear,job crisis,17,4.0,4.0,4.0,2.0,2.0,4.0
+697,depression,breakup with partner,11,5.0,5.0,4.0,2.0,2.0,5.0
+698,anxiety,academic pressure,12,5.0,5.0,5.0,1.0,4.0,5.0
+699,anger,breakup with partner,13,,,5.0,,,
+700,anxiety,ongoing depression,11,,,4.0,,,
+701,depression,Issues with Children,47,5.0,5.0,5.0,3.0,2.0,5.0
+702,depression,breakup with partner,15,4.0,5.0,4.0,3.0,1.0,4.5
+703,anxiety,academic pressure,14,,,4.0,,,
+704,anxiety,problems with friends,9,,,4.0,,,
+705,depression,ongoing depression,16,3.0,3.0,5.0,3.0,2.0,3.0
+706,anger,problems with friends,13,,,3.0,,,
+707,anger,job crisis,10,4.0,4.0,4.0,3.0,1.0,4.0
+708,sadness,job crisis,10,5.0,5.0,5.0,1.0,4.0,5.0
+709,anxiety,breakup with partner,15,3.0,4.0,3.0,2.0,1.0,3.5
+710,anxiety,academic pressure,11,5.0,5.0,3.0,1.0,2.0,5.0
+711,anxiety,academic pressure,13,5.0,5.0,4.0,1.0,3.0,5.0
+712,depression,ongoing depression,16,5.0,5.0,5.0,4.0,1.0,5.0
+713,fear,job crisis,19,5.0,5.0,5.0,1.0,4.0,5.0
+714,disgust,problems with friends,17,5.0,5.0,5.0,3.0,2.0,5.0
+715,anxiety,ongoing depression,8,,,4.0,,,
+716,shame,problems with friends,13,5.0,5.0,4.0,3.0,1.0,5.0
+717,depression,ongoing depression,19,4.0,5.0,4.0,2.0,2.0,4.5
+718,shame,academic pressure,13,5.0,5.0,4.0,1.0,3.0,5.0
+719,anxiety,ongoing depression,8,,,5.0,,,
+720,fear,job crisis,14,5.0,5.0,3.0,1.0,2.0,5.0
+721,shame,ongoing depression,10,5.0,5.0,4.0,2.0,2.0,5.0
+722,anger,job crisis,28,5.0,4.0,3.0,1.0,2.0,4.5
+723,sadness,problems with friends,14,3.0,3.0,3.0,2.0,1.0,3.0
+724,sadness,problems with friends,16,4.0,4.0,3.0,2.0,1.0,4.0
+725,sadness,breakup with partner,14,5.0,5.0,5.0,1.0,4.0,5.0
+726,anxiety,job crisis,12,5.0,5.0,4.0,2.0,2.0,5.0
+727,shame,academic pressure,17,5.0,5.0,4.0,2.0,2.0,5.0
+728,anxiety,ongoing depression,21,5.0,5.0,5.0,1.0,4.0,5.0
+729,anxiety,academic pressure,12,3.0,4.0,3.0,2.0,1.0,3.5
+730,anxiety,job crisis,19,4.0,3.0,4.0,1.0,3.0,3.5
+731,sadness,academic pressure,15,5.0,5.0,5.0,3.0,2.0,5.0
+732,anxiety,academic pressure,15,5.0,5.0,3.0,1.0,2.0,5.0
+733,depression,breakup with partner,6,,,5.0,,,
+734,depression,ongoing depression,12,5.0,5.0,4.0,1.0,3.0,5.0
+735,sadness,problems with friends,10,5.0,5.0,4.0,1.0,3.0,5.0
+736,fear,academic pressure,15,5.0,5.0,5.0,1.0,4.0,5.0
+737,disgust,breakup with partner,17,4.0,4.0,3.0,2.0,1.0,4.0
+738,depression,breakup with partner,12,5.0,5.0,5.0,1.0,4.0,5.0
+739,depression,ongoing depression,13,3.0,5.0,5.0,3.0,2.0,4.0
+740,depression,Alcohol Abuse,14,4.0,5.0,4.0,1.0,3.0,4.5
+741,depression,breakup with partner,12,,,4.0,,,
+742,fear,problems with friends,14,5.0,5.0,4.0,2.0,2.0,5.0
+743,depression,ongoing depression,13,5.0,5.0,4.0,2.0,2.0,5.0
+744,sadness,problems with friends,9,,,4.0,,,
+745,disgust,breakup with partner,20,4.0,4.0,4.0,2.0,2.0,4.0
+746,sadness,breakup with partner,12,,,3.0,,,
+747,anger,problems with friends,18,5.0,5.0,5.0,1.0,4.0,5.0
+748,anxiety,ongoing depression,12,5.0,5.0,3.0,1.0,2.0,5.0
+749,disgust,breakup with partner,16,5.0,5.0,4.0,1.0,3.0,5.0
+750,anxiety,job crisis,10,4.0,4.0,5.0,3.0,2.0,4.0
+751,fear,job crisis,13,,,4.0,,,
+752,depression,ongoing depression,13,4.0,4.0,4.0,3.0,1.0,4.0
+753,anxiety,academic pressure,12,5.0,5.0,5.0,1.0,4.0,5.0
+754,anxiety,job crisis,17,5.0,5.0,4.0,2.0,2.0,5.0
+755,depression,ongoing depression,11,5.0,5.0,5.0,1.0,4.0,5.0
+756,depression,academic pressure,11,5.0,5.0,3.0,2.0,1.0,5.0
+757,depression,ongoing depression,13,4.0,4.0,4.0,2.0,2.0,4.0
+758,depression,ongoing depression,12,5.0,5.0,4.0,1.0,3.0,5.0
+759,sadness,problems with friends,13,5.0,5.0,4.0,1.0,3.0,5.0
+760,anger,academic pressure,12,4.0,5.0,5.0,4.0,1.0,4.5
+761,fear,academic pressure,18,5.0,5.0,4.0,3.0,1.0,5.0
+762,depression,ongoing depression,11,5.0,5.0,5.0,4.0,1.0,5.0
+763,anxiety,ongoing depression,17,4.0,4.0,4.0,3.0,1.0,4.0
+764,sadness,ongoing depression,9,,,2.0,,,
+765,depression,problems with friends,15,4.0,4.0,2.0,1.0,1.0,4.0
+766,anxiety,academic pressure,16,3.0,4.0,4.0,3.0,1.0,3.5
+767,sadness,Appearance Anxiety,5,,,3.0,,,
+768,depression,ongoing depression,12,5.0,5.0,5.0,2.0,3.0,5.0
+769,sadness,ongoing depression,14,5.0,5.0,5.0,1.0,4.0,5.0
+770,anxiety,job crisis,11,5.0,5.0,2.0,1.0,1.0,5.0
+771,depression,ongoing depression,14,5.0,5.0,5.0,1.0,4.0,5.0
+772,anxiety,academic pressure,12,5.0,5.0,5.0,3.0,2.0,5.0
+773,anxiety,Procrastination,16,3.0,4.0,3.0,2.0,1.0,3.5
+774,fear,breakup with partner,18,5.0,5.0,3.0,2.0,1.0,5.0
+775,depression,academic pressure,12,3.0,3.0,4.0,2.0,2.0,3.0
+776,depression,breakup with partner,17,4.0,4.0,3.0,2.0,1.0,4.0
+777,anxiety,job crisis,11,4.0,4.0,5.0,3.0,2.0,4.0
+778,depression,job crisis,19,5.0,5.0,2.0,1.0,1.0,5.0
+779,anxiety,ongoing depression,16,5.0,3.0,4.0,2.0,2.0,4.0
+780,depression,ongoing depression,10,5.0,5.0,5.0,2.0,3.0,5.0
+781,sadness,job crisis,20,5.0,5.0,3.0,2.0,1.0,5.0
+782,depression,ongoing depression,20,4.0,4.0,3.0,2.0,1.0,4.0
+783,sadness,breakup with partner,18,5.0,5.0,4.0,1.0,3.0,5.0
+784,anxiety,problems with friends,14,5.0,5.0,4.0,3.0,1.0,5.0
+785,fear,Sleep Problems,21,5.0,5.0,5.0,2.0,3.0,5.0
+786,sadness,breakup with partner,30,5.0,5.0,5.0,1.0,4.0,5.0
+787,sadness,breakup with partner,15,5.0,5.0,4.0,1.0,3.0,5.0
+788,anxiety,academic pressure,10,5.0,5.0,3.0,1.0,2.0,5.0
+789,depression,breakup with partner,13,5.0,5.0,4.0,3.0,1.0,5.0
+790,anxiety,conflict with parents,10,,,3.0,,,
+791,anxiety,breakup with partner,19,5.0,3.0,4.0,3.0,1.0,4.0
+792,sadness,ongoing depression,11,5.0,5.0,4.0,3.0,1.0,5.0
+793,depression,breakup with partner,25,5.0,5.0,3.0,2.0,1.0,5.0
+794,anxiety,job crisis,16,3.0,3.0,3.0,2.0,1.0,3.0
+795,sadness,breakup with partner,11,5.0,5.0,4.0,2.0,2.0,5.0
+796,anxiety,problems with friends,10,5.0,5.0,5.0,1.0,4.0,5.0
+797,fear,problems with friends,10,5.0,5.0,4.0,1.0,3.0,5.0
+798,sadness,breakup with partner,15,5.0,5.0,3.0,1.0,2.0,5.0
+799,anxiety,ongoing depression,15,5.0,5.0,4.0,2.0,2.0,5.0
+800,anxiety,academic pressure,10,5.0,5.0,5.0,1.0,4.0,5.0
+801,anxiety,job crisis,10,,,3.0,,,
+802,sadness,breakup with partner,13,5.0,5.0,5.0,2.0,3.0,5.0
+803,anxiety,ongoing depression,11,4.0,5.0,3.0,2.0,1.0,4.5
+804,anger,job crisis,13,5.0,5.0,4.0,3.0,1.0,5.0
+805,disgust,ongoing depression,13,5.0,3.0,2.0,1.0,1.0,4.0
+806,sadness,ongoing depression,14,5.0,5.0,4.0,3.0,1.0,5.0
+807,fear,job crisis,10,,,4.0,,,
+808,fear,job crisis,13,5.0,5.0,4.0,2.0,2.0,5.0
+809,sadness,job crisis,11,3.0,4.0,4.0,2.0,2.0,3.5
+810,depression,breakup with partner,20,5.0,5.0,5.0,3.0,2.0,5.0
+811,anxiety,job crisis,13,,,4.0,,,
+812,sadness,problems with friends,11,5.0,5.0,5.0,1.0,4.0,5.0
+813,shame,academic pressure,10,5.0,5.0,3.0,1.0,2.0,5.0
+814,anger,ongoing depression,11,4.0,4.0,4.0,2.0,2.0,4.0
+815,anxiety,job crisis,11,4.0,4.0,5.0,3.0,2.0,4.0
+816,depression,academic pressure,11,5.0,5.0,3.0,1.0,2.0,5.0
+817,anxiety,job crisis,8,,,4.0,,,
+818,depression,ongoing depression,20,4.0,5.0,5.0,3.0,2.0,4.5
+819,sadness,problems with friends,13,4.0,4.0,4.0,2.0,2.0,4.0
+820,anxiety,Appearance Anxiety,16,5.0,5.0,5.0,1.0,4.0,5.0
+821,disgust,problems with friends,13,5.0,5.0,4.0,3.0,1.0,5.0
+822,depression,ongoing depression,14,5.0,5.0,2.0,1.0,1.0,5.0
+823,anxiety,problems with friends,25,4.0,4.0,4.0,3.0,1.0,4.0
+824,depression,ongoing depression,15,3.0,3.0,5.0,4.0,1.0,3.0
+825,anxiety,job crisis,16,5.0,5.0,3.0,1.0,2.0,5.0
+826,anxiety,academic pressure,14,5.0,5.0,4.0,3.0,1.0,5.0
+827,anxiety,ongoing depression,11,,,4.0,,,
+828,nervousness,academic pressure,9,,,5.0,,,
+829,depression,job crisis,16,5.0,5.0,3.0,2.0,1.0,5.0
+830,shame,breakup with partner,11,5.0,5.0,4.0,2.0,2.0,5.0
+831,depression,ongoing depression,12,5.0,5.0,3.0,2.0,1.0,5.0
+832,depression,Appearance Anxiety,15,5.0,5.0,4.0,3.0,1.0,5.0
+833,sadness,problems with friends,17,5.0,4.0,4.0,1.0,3.0,4.5
+834,anxiety,problems with friends,13,5.0,5.0,5.0,3.0,2.0,5.0
+835,sadness,ongoing depression,14,4.0,4.0,5.0,3.0,2.0,4.0
+836,sadness,breakup with partner,10,,,5.0,,,
+837,depression,breakup with partner,23,4.0,5.0,5.0,4.0,1.0,4.5
+838,anxiety,job crisis,12,5.0,4.0,4.0,3.0,1.0,4.5
+839,anxiety,academic pressure,10,4.0,5.0,4.0,2.0,2.0,4.5
+840,fear,ongoing depression,18,3.0,4.0,5.0,3.0,2.0,3.5
+841,depression,ongoing depression,9,,,5.0,,,
+842,depression,problems with friends,9,,,3.0,,,
+843,sadness,ongoing depression,15,5.0,5.0,5.0,4.0,1.0,5.0
+844,anxiety,academic pressure,14,4.0,5.0,3.0,2.0,1.0,4.5
+845,sadness,breakup with partner,18,5.0,5.0,4.0,2.0,2.0,5.0
+846,anxiety,academic pressure,16,4.0,4.0,4.0,2.0,2.0,4.0
+847,fear,job crisis,10,4.0,4.0,2.0,1.0,1.0,4.0
+848,depression,job crisis,12,5.0,5.0,5.0,4.0,1.0,5.0
+849,disgust,Issues with Children,13,5.0,5.0,5.0,1.0,4.0,5.0
+850,anxiety,problems with friends,17,4.0,4.0,4.0,3.0,1.0,4.0
+851,anger,ongoing depression,11,5.0,5.0,5.0,2.0,3.0,5.0
+852,depression,ongoing depression,13,5.0,5.0,3.0,1.0,2.0,5.0
+853,sadness,ongoing depression,20,5.0,5.0,2.0,1.0,1.0,5.0
+854,sadness,breakup with partner,23,5.0,5.0,4.0,2.0,2.0,5.0
+855,depression,ongoing depression,18,3.0,4.0,3.0,1.0,2.0,3.5
+856,anger,problems with friends,10,,,5.0,,,
+857,sadness,breakup with partner,19,5.0,5.0,4.0,2.0,2.0,5.0
+858,anxiety,job crisis,13,5.0,5.0,4.0,2.0,2.0,5.0
+859,anxiety,academic pressure,19,5.0,5.0,5.0,2.0,3.0,5.0
+860,anger,problems with friends,20,5.0,5.0,4.0,1.0,3.0,5.0
+861,sadness,job crisis,9,,,4.0,,,
+862,depression,breakup with partner,10,5.0,5.0,3.0,2.0,1.0,5.0
+863,sadness,problems with friends,12,4.0,4.0,5.0,2.0,3.0,4.0
+864,sadness,ongoing depression,12,4.0,5.0,4.0,2.0,2.0,4.5
+865,depression,ongoing depression,15,5.0,5.0,4.0,3.0,1.0,5.0
+866,anxiety,ongoing depression,15,5.0,5.0,4.0,2.0,2.0,5.0
+867,sadness,ongoing depression,8,,,5.0,,,
+868,depression,job crisis,22,4.0,4.0,4.0,2.0,2.0,4.0
+869,anxiety,job crisis,12,3.0,4.0,3.0,2.0,1.0,3.5
+870,anxiety,ongoing depression,13,5.0,5.0,5.0,3.0,2.0,5.0
+871,anger,ongoing depression,16,4.0,5.0,4.0,3.0,1.0,4.5
+872,anger,job crisis,12,5.0,5.0,4.0,2.0,2.0,5.0
+873,depression,job crisis,10,4.0,4.0,3.0,1.0,2.0,4.0
+874,disgust,problems with friends,12,4.0,5.0,4.0,1.0,3.0,4.5
+875,depression,ongoing depression,15,4.0,4.0,4.0,3.0,1.0,4.0
+876,depression,breakup with partner,22,5.0,5.0,4.0,3.0,1.0,5.0
+877,sadness,ongoing depression,13,,,4.0,,,
+878,anxiety,ongoing depression,10,5.0,5.0,3.0,2.0,1.0,5.0
+879,depression,ongoing depression,12,3.0,3.0,3.0,2.0,1.0,3.0
+880,depression,breakup with partner,19,4.0,4.0,3.0,2.0,1.0,4.0
+881,depression,ongoing depression,12,5.0,5.0,5.0,1.0,4.0,5.0
+882,sadness,Issues with Parents,19,5.0,5.0,3.0,1.0,2.0,5.0
+883,depression,breakup with partner,11,5.0,5.0,4.0,1.0,3.0,5.0
+884,sadness,problems with friends,13,5.0,5.0,4.0,2.0,2.0,5.0
+885,anxiety,ongoing depression,14,5.0,5.0,4.0,2.0,2.0,5.0
+886,sadness,problems with friends,10,4.0,4.0,4.0,1.0,3.0,4.0
+887,sadness,breakup with partner,15,5.0,5.0,4.0,2.0,2.0,5.0
+888,anxiety,academic pressure,10,5.0,5.0,4.0,2.0,2.0,5.0
+889,fear,academic pressure,11,4.0,4.0,4.0,2.0,2.0,4.0
+890,disgust,breakup with partner,15,5.0,5.0,4.0,2.0,2.0,5.0
+891,anxiety,job crisis,16,5.0,5.0,4.0,3.0,1.0,5.0
+892,anxiety,job crisis,16,5.0,5.0,5.0,3.0,2.0,5.0
+893,depression,breakup with partner,12,5.0,4.0,4.0,1.0,3.0,4.5
+894,fear,job crisis,8,,,2.0,,,
+895,anger,job crisis,13,5.0,5.0,4.0,2.0,2.0,5.0
+896,sadness,breakup with partner,12,5.0,5.0,5.0,3.0,2.0,5.0
+897,sadness,breakup with partner,12,5.0,5.0,5.0,2.0,3.0,5.0
+898,depression,ongoing depression,19,5.0,5.0,5.0,3.0,2.0,5.0
+899,sadness,problems with friends,21,,,5.0,,,
+900,sadness,breakup with partner,10,,,3.0,,,
+901,anxiety,ongoing depression,11,4.0,4.0,3.0,2.0,1.0,4.0
+902,sadness,breakup with partner,13,5.0,4.0,4.0,2.0,2.0,4.5
+903,depression,ongoing depression,12,5.0,5.0,4.0,3.0,1.0,5.0
+904,sadness,breakup with partner,11,3.0,4.0,4.0,3.0,1.0,3.5
+905,shame,problems with friends,13,5.0,5.0,5.0,4.0,1.0,5.0
+906,depression,ongoing depression,10,5.0,5.0,5.0,2.0,3.0,5.0
+907,sadness,problems with friends,14,4.0,5.0,4.0,1.0,3.0,4.5
+908,anxiety,ongoing depression,25,5.0,5.0,3.0,2.0,1.0,5.0
+909,sadness,breakup with partner,12,4.0,5.0,5.0,3.0,2.0,4.5

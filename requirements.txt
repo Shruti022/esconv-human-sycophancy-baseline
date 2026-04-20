@@ -1,0 +1,19 @@
+# ESConv Human Sycophancy Baseline Study
+# Requirements
+
+# Data
+datasets>=2.16.0
+pandas>=2.0.0
+numpy>=1.24.0
+
+# Google AI
+google-genai>=1.0.0
+python-dotenv>=1.0.0
+
+# Analysis
+scipy>=1.10.0
+tqdm>=4.65.0
+
+# Visualization
+streamlit>=1.30.0
+plotly>=5.18.0

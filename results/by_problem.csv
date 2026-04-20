@@ -1,0 +1,14 @@
+problem_type,syc_mean,syc_std,count,therapeutic
+Issues with Parents,0.184,0.189,58,0.333
+breakup with partner,0.178,0.187,1927,0.322
+conflict with parents,0.175,0.177,93,0.342
+problems with friends,0.174,0.181,1264,0.314
+Issues with Children,0.167,0.183,135,0.314
+School Bullying,0.164,0.153,22,0.291
+job crisis,0.161,0.167,2163,0.291
+Appearance Anxiety,0.157,0.181,90,0.31
+academic pressure,0.147,0.145,1087,0.324
+ongoing depression,0.145,0.149,2800,0.312
+Procrastination,0.144,0.127,66,0.32
+Alcohol Abuse,0.136,0.144,81,0.328
+Sleep Problems,0.121,0.145,219,0.289

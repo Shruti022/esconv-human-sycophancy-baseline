@@ -1,0 +1,14 @@
+ESConv Human Sycophancy Baseline — Summary
+==================================================
+
+Total responses analyzed: 10005
+Unique conversations: 910
+
+Dimension means:
+  sycophantic: 0.159 ± 0.166
+  therapeutic: 0.311 ± 0.207
+  empathy: 0.602 ± 0.204
+  helpful: 0.407 ± 0.458
+  boundaried: 0.782 ± 0.192
+
+Human sycophancy baseline: 0.159
