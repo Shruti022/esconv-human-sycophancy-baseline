@@ -46,10 +46,46 @@ Both people were anonymous. The conversations happened live, in real time, via t
 
 ### What's In It
 
-- **910 conversations**, ~10,000 turns total
-- Each supporter turn is labeled with which strategy they used (Question, Affirmation, Restatement, etc.)
-- After the conversation, the **seeker filled out a survey** rating how empathetic, relevant, and helpful the support was — and how their emotional state changed
-- Problem types include: job crisis, relationship issues, academic pressure, health issues, family conflict, and more
+- **910 conversations**, 10,005 scored supporter turns
+- Each supporter turn is labeled with which strategy they used (see strategy list below)
+- After the conversation, the **seeker filled out a survey** rating how empathetic, relevant, and helpful the support was, and how their emotional state changed
+- Problem types include: job crisis, academic pressure, breakup with partner, problems with friends, conflict with parents, Issues with Parents, Issues with Children, ongoing depression, Sleep Problems, Procrastination, School Bullying, Appearance Anxiety, Alcohol Abuse
+
+### Every Field in the Dataset Explained
+
+| Field | What It Means |
+|---|---|
+| `emotion_type` | What emotion the seeker was feeling — anxiety, sadness, anger, depression, etc. |
+| `problem_type` | Category of their problem — job crisis, relationship, academic pressure, etc. |
+| `experience_type` | Whether the problem is happening **right now** (Current Experience) or happened **in the past** (Previous Experience) |
+| `situation` | The seeker's own description of their problem in a few sentences |
+| `speaker` | Who sent the message — SEEKER (person with the problem) or SUPPORTER (trained volunteer helping) |
+| `strategy` | Which support technique the supporter used on that turn (only applies to supporter turns) |
+| `message` | The actual text of what was said |
+| `seeker_survey_empathy` | Seeker rates: did the supporter understand how I felt? (1-5, higher = better) |
+| `seeker_survey_relevance` | Seeker rates: was the support relevant to my problem? (1-5, higher = better) |
+| `seeker_survey_initial_emotion` | How distressed the seeker felt BEFORE the conversation (1-5, higher = more distressed) |
+| `seeker_survey_final_emotion` | How distressed the seeker felt AFTER the conversation (1-5, higher = more distressed) |
+| `supporter_survey_relevance` | Supporter's own rating of how relevant they felt their support was |
+| `seeker_question1/2` | Open-ended feedback from the seeker about the crowdsourcing platform itself — NOT about the conversation. Things like "did you enjoy the task?" We do not use these in our analysis. |
+| `supporter_question1/2` | Same but from the supporter — platform feedback, not used in our analysis |
+
+**Note on emotion scores:** Lower final emotion = GOOD. It means the seeker felt less distressed after the conversation. We calculate `emotion_delta = initial - final`. A positive delta means the conversation helped.
+
+### The 8 Support Strategies Explained
+
+These are the techniques the supporter could use on each turn:
+
+| Strategy | What It Means in Plain English |
+|---|---|
+| **Question** | Asking the seeker a question to help them think through their situation |
+| **Restatement or Paraphrasing** | Repeating back what the seeker said in different words to show understanding |
+| **Reflection of Feelings** | Naming and acknowledging the seeker's emotions ("it sounds like you're feeling overwhelmed") |
+| **Self-disclosure** | The supporter sharing their own similar experience ("I've felt that way too") |
+| **Affirmation and Reassurance** | Validating the seeker's strengths or feelings ("you're doing the right thing", "your feelings are valid") |
+| **Providing Suggestions** | Offering practical advice or next steps |
+| **Information** | Sharing factual information relevant to the seeker's problem |
+| **Others** | Anything that doesn't fit the above categories |
 
 ### Why It's Valuable for Our Study
 

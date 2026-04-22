@@ -15,6 +15,11 @@ We took 910 real conversations between trained human volunteers and people seeki
 
 We then correlated these scores against the seeker's post-conversation satisfaction ratings to answer the core question: **do users reward sycophancy?**
 
+**About the satisfaction ratings (from the seeker's post-conversation survey):**
+- **Empathy rating** — did the supporter understand how I felt? (1-5, higher = better)
+- **Relevance rating** — was the support relevant to my problem? (1-5, higher = better)
+- **Emotion delta** = initial emotion intensity minus final emotion intensity. A **positive delta means improvement** — the seeker felt less distressed after the conversation. Initial and final are both rated 1-5 where higher = more distressed. So if someone started at 4 and ended at 2, delta = 2 (good outcome).
+
 ---
 
 ## Finding 1: Human Supporters Are NOT Very Sycophantic
@@ -40,6 +45,8 @@ The human profile (high empathy + high boundaries + low sycophancy) is exactly w
 ---
 
 ## Finding 2: Users Do NOT Reward Sycophancy (The Key Finding)
+
+**Quick note on Pearson r:** This is a correlation coefficient. r = 1 means perfectly related, r = 0 means no relationship at all. In social science, r > 0.2 is considered meaningful. "p < 0.05" means the result is statistically significant (not due to chance). "n.s." means not significant.
 
 **Sycophancy × User Satisfaction: r = 0.063, p = 0.074 (not significant)**
 
