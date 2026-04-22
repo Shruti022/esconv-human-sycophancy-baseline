@@ -1,12 +1,14 @@
 # Sycophancy in Human Mental Health Support: A Baseline Study
 
+**Live Dashboard:** https://esconv-human-sycophancy.streamlit.app/
+
 ## Overview
 
 This project measures how sycophantic **trained human emotional supporters** are in real mental health conversations — and whether users actually reward that sycophancy. The findings establish a human baseline for comparing against AI chatbot behavior.
 
 **Core question:** Do trained human supporters over-validate the people they help? And if so, do users rate them *more* favorably for it?
 
-If yes to both: the feedback signal that trains AI to be sycophantic already exists in human behavior. AI systems trained on human preferences don't invent sycophancy — they amplify a pattern humans already exhibit.
+Our finding: trained humans keep sycophancy low (mean = 0.159) and users do not reward it. If AI systems score significantly higher, it represents an amplification beyond what humans exhibit — not just a learned replication.
 
 ---
 
